@@ -1,6 +1,8 @@
 # LVGL Font Converter
 
 A PowerShell script that converts LVGL 9.3 font files to LVGL 8.3.11 format, removing version conditionals and fixing compatibility issues.
+This is for those who have searched around finding out that the online converter only works with LVGL 9+. 
+Use this to convert TTF/WOF fonts to LVGL 8.3 versions
 
 ## What It Does
 
@@ -16,6 +18,8 @@ This script automates the conversion of LVGL font files from version 9.3 to 8.3.
 ## Usage
 
 ### Basic Usage
+Convert your WOF/TTF file using LVGL 9.3 Online Converter Tool - https://lvgl.io/tools/fontconverter
+
 ```powershell
 .\convert.ps1 -InputFile "my_font.c"
 ```
