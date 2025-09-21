@@ -1,4 +1,4 @@
-# LVGL Font Converter
+# LVGL 8.3 Font Converter from 9+
 
 A PowerShell script that converts LVGL 9.3 font files to LVGL 8.3.11 format, removing version conditionals and fixing compatibility issues.
 This is for those who have searched around finding out that the online converter only works with LVGL 9+. 
