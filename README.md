@@ -19,6 +19,10 @@ This script automates the conversion of LVGL font files from version 9.3 to 8.3.
 
 ### Basic Usage
 Convert your WOF/TTF file using LVGL 9.3 Online Converter Tool - https://lvgl.io/tools/fontconverter
+Make sure to capture all glyphs!
+```
+abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890.:,;'" (!?)+-*/= éèêëàâäîïôöûüÿçÉÈÊËÀÂÄÎÏÔÖÛÜŸÇœŒæÆ|\}{[]_~<>$#%^&@
+```
 
 ```powershell
 .\convert.ps1 -InputFile "my_font.c"
